@@ -19,12 +19,12 @@
             <img id="icone" src="assets/imagens/glass-oculos-preto-peq.png" />
             <nav id="menu">
                 <h1>Menu Principal</h1>
-                <ul onmouseout="mudarIcone('glass-oculos-preto-peq')">
-                    <li onmouseover="mudarIcone('home')"><a href="index.html">Home<a></li>
-                    <li onmouseover="mudarIcone('especificacoes')"><a href="pages/specs.html">Especificações</a></li>
-                    <li onmouseover="mudarIcone('fotos')"><a href="pages/fotos.html">Fotos</a></li>
-                    <li onmouseover="mudarIcone('multimidia')"><a href="pages/multimidia.html">Multimídia</a></li>
-                    <li onmouseover="mudarIcone('contato')"><a href="pages/fale-conosco.html">Fale conosco</a></li>
+                <ul onmouseout="mudarIconeHome('glass-oculos-preto-peq')">
+                    <li onmouseover="mudarIconeHome('home')"><a href="index.html">Home<a></li>
+                    <li onmouseover="mudarIconeHome('especificacoes')"><a href="pages/specs.html">Especificações</a></li>
+                    <li onmouseover="mudarIconeHome('fotos')"><a href="pages/fotos.html">Fotos</a></li>
+                    <li onmouseover="mudarIconeHome('multimidia')"><a href="pages/multimidia.html">Multimídia</a></li>
+                    <li onmouseover="mudarIconeHome('contato')"><a href="pages/fale-conosco.html">Fale conosco</a></li>
                 </ul>
             </nav>
         </header>
@@ -88,7 +88,7 @@
                 <p>O vídeo de divulgação do Google mostra que você pode se transformar em uma espécie de “super-humano”, já que o aparelho pode indicar a quantos metros você está de seu destino, se o metrô está aberto ou fechado, mostrar o clima, agenda
                     e até mesmo permitir que você marque encontros apenas com comandos de voz.</p>
 
-                <video src="assets/media/one-day.mp4" poster="assets/imagens/video-mini01.jpg" controls></video>
+                <video class="videoGrande" src="assets/media/one-day.mp4" poster="assets/imagens/video-mini01.jpg" controls></video>
             </article>
         </section>
         <aside id="lateral">
@@ -96,7 +96,7 @@
             <h2>Vídeo mais recente</h2>
 
             <div>
-                <video src="assets/media/how-it-feels.mp4" poster="assets/imagens/video-mini02.jpg" controls></video>
+                <video class="videoPequeno" src="assets/media/how-it-feels.mp4" poster="assets/imagens/video-mini02.jpg" controls></video>
             </div>
 
             <h2>Novidades no Glass</h2>
